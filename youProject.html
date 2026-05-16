@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="Youproject.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <div class="top-navbar" id="topNavbar">
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <div class="logo">
+            <img src="real logo.jpg" alt="YouTube Logo">
+        </div>
+        
+        <div class="search-container">
+            <input class="input" type="text" placeholder="Search">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button class="mic-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+        
+        <div class="nav-icons">
+            <button class="nav-btn create-btn">
+                <i class="fas fa-video"></i>
+            </button>
+            <button class="nav-btn bell-btn">
+                <i class="fas fa-bell"></i>
+            </button>
+            <button class="nav-btn profile-btn">
+                <i class="fas fa-user-circle"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-main">
+            <!-- Always visible 3 items -->
+            <div class="sidebar-item always-visible active" id="block">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item always-visible" id="block">
+                <i class="fas fa-music"></i>
+                <span>Music</span>
+            </div>
+            <div class="sidebar-item always-visible" id="block">
+                <i class="fas fa-gamepad"></i>
+                <span>Gaming</span>
+            </div>
+        </div>
+
+            <!-- Collapsible content -->
+            <div class="collapsible-content" id="collapsibleContent">
+                <div class="sidebar-section">
+                    <h4>You</h4>
+                    <div class="sidebar-item">
+                        <i class="fas fa-newspaper"></i>
+                        <span>News</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Sports</span>
+                    </div>
+                </div>
+                
+            <div class="sidebar-section">
+                    <h4>YouTube</h4>
+                    <div class="sidebar-item">
+                        <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                        <span>YouTube Premium</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                        <span>YouTube Music</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fab fa-youtube" style="color: #ff0000;"></i>
+                        <span>YouTube Kids</span>
+                    </div>
+                </div>
+                
+                <div class="sidebar-footer">
+                    <p>About Press Copyright Contact us Creators Advertise Developers</p>
+                    <p>Terms Privacy Policy & Safety How YouTube works Test new features</p>
+                    <p>© 2026 Google LLC</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main Content -->
+<main class="main-content" id="mainContent">
+        <!-- Category Navigation -->
+    <div class="nav-control">
+        <nav class="category-nav" id="categoryNav">
+            <a href="#" class="category-btn active" id="all">All</a>
+            <a href="#" class="category-btn">Music</a>
+            <a href="#" class="category-btn">Gaming</a>
+            <a href="#" class="category-btn">Live</a>
+            <a href="#" class="category-btn">News</a>
+            <a href="#" class="category-btn">Sports</a>
+            <a href="#" class="category-btn">Mixes</a>
+            <a href="#" class="category-btn">Nollywood</a>
+            <a href="#" class="category-btn">Website</a>
+            <a href="#" class="category-btn">Country Music</a>
+            <a href="#" class="category-btn">Recently uploaded</a>
+            <a href="#" class="category-btn">Watched</a>
+            <a href="#" class="category-btn">New to you</a>
+            <a href="#" class="category-btn">Playlists</a>
+            <a href="#" class="category-btn">Live</a>
+            <a href="#" class="category-btn">Python</a>
+            <a href="#" class="category-btn">African Music</a>
+        </nav>
+    </div>
+
+        <!-- Video Grid -->
+    <div class="video-grid">
+            <!-- Video items would go here -->
+             
+            <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="Wizkid-Money.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="Burna-Boy-Big-7.mp4" autoplay muted ></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="ayraster.mp4" autoplay muted ></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ...................... -->
+    
+        <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="Wizkid-Money.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="Burna-Boy-Big-7.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="video-item">
+                <div class="video-thumbnail">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder">
+                        <video src="ayraster.mp4" autoplay muted ></video>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <!-- SHORT VIDEO CONTAINEER  -->
+
+            <div class="short-logo"><img src="short video.webp" alt="" ></div> <br><br>
+
+    <div class="video-grid2">
+            <!-- Video items would go here -->
+             
+            <div class="video-item2">
+                <div class="video-thumbnail2">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder2">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info2">
+                    <div class="channel-icon2">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details2">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- <div class="video-grid2"> -->
+            <!-- Video items would go here -->
+             
+            <div class="video-item2">
+                <div class="video-thumbnail2">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder2">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info2">
+                    <div class="channel-icon2">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details2">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item2">
+                <div class="video-thumbnail2">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder2">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info2">
+                    <div class="channel-icon2">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details2">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item2">
+                <div class="video-thumbnail2">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder2">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info2">
+                    <div class="channel-icon2">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details2">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item2">
+                <div class="video-thumbnail2">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder2">
+                        <video src="videoplayback.mp4" autoplay muted width="350px" ></video>
+                    </div>
+                </div>
+                <div class="video-info2">
+                    <div class="channel-icon2">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details2">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+<!--  SHORT VIDEO 2 CONTAINER  -->
+
+
+    <div class="video-grid3">
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- <div class="video-grid2"> -->
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted width="350px" ></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div style="margin-left: 20px; margin-bottom: 20px;">
+        <h1>Explore More Topics</h1>
+    </div>
+
+    <div>
+            <nav class="category-nav" id="categoryNav">
+            <a href="#" class="category-btn active">Nigeria Gospel Music</a>
+            <a href="#" class="category-btn">Worship Song Lyrics</a>
+            <a href="#" class="category-btn">Gospel Worship Events</a>
+            <a href="#" class="category-btn">Rhoda Isabella Songs</a>
+            <a href="#" class="category-btn">Software Engineering Career</a>
+    </div>
+
+
+
+    <div class="video-grid3">
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- <div class="video-grid2"> -->
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video items would go here -->
+             
+            <div class="video-item3">
+                <div class="video-thumbnail3">
+                    <!-- Placeholder for video -->
+                    <div class="thumbnail-placeholder3">
+                        <video src="videoplayback.mp4" autoplay muted width="350px" ></video>
+                    </div>
+                </div>
+                <div class="video-info3">
+                    <div class="channel-icon3">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="video-details3">
+                        <h4>Video Title</h4>
+                        <p>Channel Name</p>
+                        <p>100K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    const mainContent = document.getElementById('mainContent');
+
+    menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('collapsed');
+    mainContent.classList.toggle('expanded');
+    });
+    </script>
+
+</body>
+</html>
