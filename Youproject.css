@@ -431,7 +431,7 @@ margin-bottom: 60px;
 }
 .my-name>h1{
     
-    background: linear-gradient(90deg, #ff0000, #0000ff);
+    background: linear-gradient(90deg, #ff0000, #0000ff, green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -518,7 +518,7 @@ margin-bottom: 60px;
         /* grid-template-columns: max-content(1); */
     }
     .video-grid2,.video-grid3{
-        margin-left: 25%;
+        margin-left: 21%;
         margin-right: 25%;
     }
 
