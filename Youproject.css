@@ -486,7 +486,7 @@ margin-bottom: 60px;
 
 @media (max-width: 480px) {
     .search-container, .sidebar {
-        display: none;
+        display: hidden;
     }
     .nav-icons .input, .search-btn, .mic-btn {
         display: none;
