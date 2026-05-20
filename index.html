@@ -607,24 +607,50 @@
                 </div>
             </div>
         </div>
-        <div>
-            <H1>ZEKERI JULIUS KAFARUDEEN</H1>
+        <div class="my-name">
+            <h1>ZEKERI JULIUS KAFARUDEEN</H1>
             HIIT/2025/10469
         </div>
     </main>
 
     <script>
 
-    const menuToggle = document.getElementById('menuToggle');
-    const sidebar = document.getElementById('sidebar');
-    const mainContent = document.getElementById('mainContent');
+    // const menuToggle = document.getElementById('menuToggle');
+    // const sidebar = document.getElementById('sidebar');
+    // const mainContent = document.getElementById('mainContent');
 
-    menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('collapsed');
-    // sidebar.style.display="block"
-    // mainContent.style.marginLeft="240px"
-    mainContent.classList.toggle('expanded');
-    });
+    // menuToggle.addEventListener('click', () => {
+    // sidebar.classList.toggle('collapsed');
+    // // sidebar.style.display="block"
+    // // mainContent.style.marginleft="-100px"
+    // mainContent.classList.toggle('expanded');
+    // });
+
+
+    const menuToggle = document.getElementById('menuToggle');
+const sidebar = document.getElementById('sidebar');
+const mainContent = document.getElementById('mainContent');
+
+menuToggle.addEventListener('click', () => {
+
+    // MOBILE SCREEN
+    if(window.innerWidth <= 768){
+
+        sidebar.classList.toggle('show');
+
+    } 
+    
+    // DESKTOP SCREEN
+    else {
+
+        sidebar.classList.toggle('collapsed');
+        mainContent.classList.toggle('expanded');
+
+    }
+
+});
+
+
     </script>
 
 </body>
