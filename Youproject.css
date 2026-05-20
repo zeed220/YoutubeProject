@@ -500,6 +500,12 @@ margin-bottom: 60px;
     }
 
     .video-grid2, .video-grid3{
-        margin-left: 45px;
+        margin-left: 55px;
+    }
+}
+
+@media (width: 320px){
+    .sidebar-main{
+        display: hidden;
     }
 }
