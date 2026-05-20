@@ -120,7 +120,7 @@ body {
     overflow-y: auto;
     transition: all 0.3s ease;
     z-index: 900;
-    display: none;
+    /* display: none; */
 }
 
 .sidebar.collapsed {
@@ -184,7 +184,7 @@ body {
 .sidebar.collapsed .collapsible-content {
     height: 0;
     opacity: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .sidebar:not(.collapsed) .collapsible-content {
@@ -232,7 +232,7 @@ body {
 .main-content {
     /* margin: center; */
     margin-top: 40px;
-    /* margin-left: 240px; */
+    margin-left: 240px;
     padding: 20px;
     transition: 0.3s;
 }
@@ -444,6 +444,7 @@ margin-bottom: 60px;
         position: absolute;
         /* transform: translateX(-240px); */
         width: 240px;
+        /* display: block; */
     }
     #block{
         display:none ;
@@ -511,9 +512,8 @@ margin-bottom: 60px;
         left:0px;   /* HIDE SIDEBAR */
         top:0;
       }
-/* 
       .sidebar.collapsed {
-    width: 0px; */
+    width: 0px;}
 }
 
 
