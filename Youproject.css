@@ -502,10 +502,13 @@ margin-bottom: 60px;
     .video-grid2, .video-grid3{
         margin-left: 55px;
     }
+     .sidebar.collapsed{
+        visibility: hidden;
+     }
 }
 
 @media (width: 320px){
-    .sidebar-main{
-        display: hidden;
+    .sidebar.collapsed{
+        visibility: hidden;
     }
 }
