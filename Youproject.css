@@ -485,7 +485,7 @@ margin-bottom: 60px;
 }
 
 @media (max-width: 480px) {
-    .search-container {
+    .search-container, .sidebar {
         display: none;
     }
     .nav-icons .input, .search-btn, .mic-btn {
@@ -500,7 +500,7 @@ margin-bottom: 60px;
     }
 
     .video-grid2, .video-grid3{
-        margin-left: 55px;
+        margin-left: 58px;
     }
      .sidebar.collapsed{
         visibility: hidden;
@@ -508,7 +508,7 @@ margin-bottom: 60px;
 }
 
 @media (width: 320px){
-    .sidebar.collapsed{
+     .sidebar, .sidebar.collapsed{
         visibility: hidden;
     }
 }
