@@ -495,7 +495,11 @@ margin-bottom: 60px;
         display: hidden;
     }
 
-    .video-grid, .video-grid2, .video-grid3{
+    .video-grid{
         grid-template-columns: repeat(1, auto);
+    }
+
+    .video-grid2, .video-grid3{
+        grid-template-columns:repeat(2,) ;
     }
 }
