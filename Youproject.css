@@ -120,6 +120,7 @@ body {
     overflow-y: auto;
     transition: all 0.3s ease;
     z-index: 900;
+    display: none;
 }
 
 .sidebar.collapsed {
@@ -162,6 +163,7 @@ body {
     opacity: 0;
     width: 0;
     margin: 0;
+    
 }
 
 .sidebar.collapsed .sidebar-item {
@@ -230,7 +232,7 @@ body {
 .main-content {
     /* margin: center; */
     margin-top: 40px;
-    margin-left: 240px;
+    /* margin-left: 240px; */
     padding: 20px;
     transition: 0.3s;
 }
@@ -425,7 +427,7 @@ margin-bottom: 60px;
 
     
     .main-content {
-        margin-left: 200px;
+        /* margin-left: 200px; */
     }
     
     /* .video-grid {
@@ -509,11 +511,9 @@ margin-bottom: 60px;
         left:0px;   /* HIDE SIDEBAR */
         top:0;
       }
-
+/* 
       .sidebar.collapsed {
-    width: 0px;
+    width: 0px; */
 }
 
-
-}
 
